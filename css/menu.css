@@ -1,0 +1,43 @@
+/*  Stili generali di pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+/*----------------stile sezione nav-----------------------*/
+
+.block1 {
+    background-color: rgb(160, 231, 255);  
+    min-height: 50px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container1 {
+    display: flex;
+    min-height: 20px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.container1 > .item .logo {
+    color: red;
+}
+.container1 > .item {
+    flex-basis: 10%;
+    background-color: orange;
+    border: 2px dotted black;
+} 
+
+.container1 > .item1 {
+    flex-basis: 50%;
+    text-align: center;
+    background-color: orange;
+    border: 2px dotted black;
+} 
