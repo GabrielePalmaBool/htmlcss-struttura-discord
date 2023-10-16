@@ -39,5 +39,6 @@
     flex-basis: 50%;
     text-align: center;
     background-color: orange;
-    border: 2px dotted black;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
 } 
