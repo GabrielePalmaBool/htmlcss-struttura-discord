@@ -176,3 +176,43 @@
     border: 2px dashed black;
 }
 
+/* blocco6 */
+
+.block2 {
+    background-color: rgb(63, 63, 63);  
+    min-height: 50px; 
+    padding: 5px 0px 5px 0px;
+}
+
+.container8 {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    min-height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.container8 > .item {
+    flex-basis: 60%;
+    background-color: rgb(0, 255, 221); 
+    border: 2px dashed black;
+}
+
+.container8 > .item .logo {
+    flex-basis: 20%;
+    min-height: 10px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.container8 > .item .button {
+    flex-basis: 10%;
+    min-height: 50px;
+    font-size: 25px;
+    float: right;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+
