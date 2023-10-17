@@ -63,88 +63,100 @@
 
 /*----------------stile sezione main-----------------------*/
 
-/* blocco1 */
+/* item1 */
 
 .container3 {
     display: flex;
     flex-direction: row;
     justify-content: center; 
-    background-color: white;  
-    padding: 30px 0px 30px 0px;
-
-}
-.container3 > .item{
-    flex-basis: 40%;
-    min-height: 400px;
-    background-color: rgb(184, 237, 255);
-    border: 2px dashed black;
+    flex-wrap:wrap;
 }
 
 .container3 > .item1{
+    display: flex;
+    justify-content: center; 
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    min-height: 400px;
+    width: 100%;
+}
+
+.container3 > .item1 .item1{
+    flex-basis: 40%;
+    font-size: 30px;
+    background-color: rgb(184, 237, 255);
+    border: 2px dashed black;
+}
+
+.container3 > .item1 .item2{
     flex-basis: 20%;
-    min-height: 400px;
     background-color: rgb(255, 208, 216);
     border: 2px dashed black;
 }
 
-/* blocco2 */
+/* item2 */
 
-.container4 {
+.container3 > .item2{
     display: flex;
-    flex-direction: row;
     justify-content: center; 
-    background-color: rgb(238, 237, 237);  
     padding: 30px 0px 30px 0px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(238, 237, 237); 
+    min-height: 400px;
+    width: 100%;
 }
-.container4 > .item{
+
+.container3 > .item2 .item1{
     flex-basis: 15%;
-    min-height: 400px;
+    font-size: 30px;
     background-color: rgb(184, 237, 255);
     border: 2px dashed black;
 }
 
-.container4 > .item1{
+.container3 > .item2 .item2{
     flex-basis: 45%;
-    min-height: 400px;
     background-color: rgb(255, 208, 216);
     border: 2px dashed black;
 }
 
-/* blocco3 */
+/* item3 */
 
-.container5 {
+.container3 > .item3{
     display: flex;
-    flex-direction: row;
     justify-content: center; 
-    background-color: white;  
-    padding: 30px 0px 30px 0px;
-}
-.container5 > .item{
-    flex-basis: 50%;
+    background-color: white;
+    margin: 20px 0px 20px 0px;
     min-height: 400px;
+    width: 100%;
+}
+
+.container3 > .item3 .item1{
+    flex-basis: 50%;
+    font-size: 30px;
     background-color: rgb(184, 237, 255);
     border: 2px dashed black;
 }
 
-.container5 > .item1{
+.container3 > .item3 .item2{
     flex-basis: 10%;
-    min-height: 400px;
     background-color: rgb(255, 208, 216);
     border: 2px dashed black;
 }
 
-/* blocco4 */
+/* item4 */
 
-.container6 {
+.container3 > .item4{
     display: flex;
-    flex-direction: row;
     justify-content: center; 
-    background-color: rgb(238, 237, 237);  
+    background-color: rgb(238, 237, 237); 
+    margin: 20px 0px 20px 0px;
     padding: 30px 0px 30px 0px;
+    min-height: 1200px;
+    width: 100%;
 }
-.container6 > .item{
+
+.container3 > .item4 .item1{
     flex-basis: 60%;
-    min-height: 800px;
     background-color: green;
     border: 2px dashed black;
 }
